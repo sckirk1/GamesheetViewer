@@ -1,5 +1,7 @@
+package com.kirk.gamesheetviewer;
+
 public enum LaunchType {
     LANDING_PAGE,
-    WORKSPACE,
+    EMPTY_WORKSPACE,
     FILE;
 }

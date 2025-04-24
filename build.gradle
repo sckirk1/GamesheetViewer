@@ -26,7 +26,7 @@ tasks.withType(JavaCompile) {
 
 application {
   mainModule = 'com.kirk.gamesheetviewer'
-  mainClass = 'com.kirk.gamesheetviewer.HelloApplication'
+  mainClass =  'com.kirk.gamesheetviewer.GamesheetViewerApplication'
 }
 
 javafx {
