@@ -15,8 +15,7 @@ public class GameSheetViewer {
 
     switch (launchParameters.getLaunchType()) {
       case LANDING_PAGE -> setupLandingPageScene();
-      case EMPTY_WORKSPACE -> setupWorkspaceScene(Optional.empty());
-      case FILE -> setupWorkspaceScene(launchParameters.getPathToFile());
+      case EMPTY_WORKSPACE, FILE -> setupWorkspaceScene(launchParameters.getPathToFile());
     }
 
     mainStage.setTitle(GameSheetViewerI18n.getAppName());
